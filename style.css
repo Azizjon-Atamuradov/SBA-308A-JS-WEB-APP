@@ -9,11 +9,11 @@
 
 #app {
     position: relative;
-    width: 414px;
+    width: 430px;
     height: 420px;
-    border: solid black;
+     
     display: block;
-    margin: auto;
+    margin: 30px auto;
     text-align: center;
     padding: 40px 0px;
     overflow: hidden;
@@ -27,6 +27,7 @@
     display: flex;
     padding: 0 40 px;
     margin-bottom: 30px;
+    padding-left: 15px;
 }
 
 
@@ -37,6 +38,28 @@
     outline: none;
     width: 90%;
     background-color: transparent;
-    color: #fff;
+    color:  #fff;
     border-bottom: solid 1px lightblue;
+}
+
+
+input::placeholder {
+color: #fff;
+opacity: 0.6;
+font-size: 1.2rem;
+}
+
+#extraInfo {
+    position: absolute; 
+    bottom: 5px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    color: #fff;
+    padding-bottom: 30px;
+
+}
+#extraInfo h5 {
+    font-size: 1.1rem;
+    text-transform: uppercase;
 }
