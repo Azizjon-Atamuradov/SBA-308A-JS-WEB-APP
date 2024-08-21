@@ -49,6 +49,28 @@ opacity: 0.6;
 font-size: 1.2rem;
 }
 
+#info {
+    line-height: 0.5rem;
+    color: #fff;
+}
+
+
+#info h3 {
+  font-size: 40px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: .6em;
+}
+#description {
+    text-transform: uppercase;
+    color: #fff;
+}
+
+#temp {
+    color: #fff;
+    font-size: 30px; 
+}
+
 #extraInfo {
     position: absolute; 
     bottom: 5px;
